@@ -1,16 +1,19 @@
-athena-v3.Q5_K_M.gguf                             	mean:0.625	range:0.197	sd:0.035
-collectivecognition-v1-mistral-7b.Q8_0.gguf       	mean:0.548	range:0.580	sd:0.116
-collectivecognition-v1.1-mistral-7b.Q8_0.gguf     	mean:0.560	range:0.584	sd:0.117
-dolphin-2.1-mistral-7b.Q8_0.gguf                  	mean:0.606	range:0.169	sd:0.040
-dolphin-2.2.1-mistral-7b.Q8_0.gguf                	mean:0.603	range:0.207	sd:0.045
-llama-2-13b-chat.Q5_K_M.gguf                      	mean:0.533	range:0.240	sd:0.050
-LLaMA2-13B-TiefighterLR.Q5_K_M.gguf               	mean:0.560	range:0.168	sd:0.039
-Mistral-7B-claude-chat.q8_0.gguf                  	mean:0.512	range:0.658	sd:0.162
-mistral_7b_dolphin2.1_lima0.5.Q8_0.gguf           	mean:0.599	range:0.480	sd:0.071
-mythomax-l2-13b.Q5_K_M.gguf                       	mean:0.613	range:0.183	sd:0.033
-Unholy-v1.1-13B.q5_K_M.gguf                       	mean:0.579	range:0.134	sd:0.030
-WizardLM-7B-uncensored.Q8_0.gguf                  	mean:0.558	range:0.209	sd:0.053
-zephyr-7b-beta.Q8_0.gguf                          	mean:0.597	range:0.259	sd:0.052
+athena-v3.Q5_K_M.gguf                        	mean:0.625	range:0.197	sd:0.035
+collectivecognition-v1-mistral-7b.Q8_0.gguf  	mean:0.548	range:0.580	sd:0.116
+collectivecognition-v1.1-mistral-7b.Q8_0.gguf	mean:0.560	range:0.584	sd:0.117
+dolphin-2.1-mistral-7b.Q8_0.gguf             	mean:0.606	range:0.169	sd:0.040
+dolphin-2.2.1-mistral-7b.Q8_0.gguf           	mean:0.603	range:0.207	sd:0.045
+llama-2-13b-chat.Q5_K_M.gguf                 	mean:0.533	range:0.240	sd:0.050
+LLaMA2-13B-TiefighterLR.Q5_K_M.gguf          	mean:0.560	range:0.168	sd:0.039
+Mistral-7B-claude-chat.q8_0.gguf             	mean:0.512	range:0.658	sd:0.162
+mistral_7b_dolphin2.1_lima0.5.Q8_0.gguf      	mean:0.599	range:0.480	sd:0.071
+mythomax-l2-13b.Q5_K_M.gguf                  	mean:0.613	range:0.183	sd:0.033
+sheep-duck-llama-2-13b.Q5_K_M.gguf           	mean:0.578	range:0.141	sd:0.037
+Toppy-M-7B.q8_0.gguf                         	mean:0.554	range:0.239	sd:0.047
+u-amethyst-20b.Q4_K_M.gguf                   	mean:0.610	range:0.257	sd:0.045
+Unholy-v1.1-13B.q5_K_M.gguf                  	mean:0.579	range:0.134	sd:0.030
+WizardLM-7B-uncensored.Q8_0.gguf             	mean:0.558	range:0.209	sd:0.053
+zephyr-7b-beta.Q8_0.gguf                     	mean:0.597	range:0.259	sd:0.052
 
 -----------------------------------------------------------
 athena-v3.Q5_K_M.gguf
@@ -590,6 +593,180 @@ poem-freedom/default/1337     	186       	120       	0.65
 poem-technology/default/1337  	278       	172       	0.62
 -----------------------------------------------------------
 mean:0.613	range:0.183	sd:0.033
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+sheep-duck-llama-2-13b.Q5_K_M.gguf
+-----------------------------------------------------------
+Reference                     	Total     	Distinct  	Percent
+poem-nature/default/1324932   	595       	328       	0.55
+poem-love/default/1324932     	410       	249       	0.61
+poem-dreams/default/1324932   	379       	220       	0.58
+poem-social/default/1324932   	576       	329       	0.57
+poem-identity/default/1324932 	429       	238       	0.55
+poem-adventure/default/1324932	382       	218       	0.57
+poem-memories/default/1324932 	355       	209       	0.59
+poem-art/default/1324932      	299       	181       	0.61
+poem-freedom/default/1324932  	516       	298       	0.58
+poem-technology/default/1324932	426       	269       	0.63
+poem-nature/default/39292     	470       	257       	0.55
+poem-love/default/39292       	327       	187       	0.57
+poem-dreams/default/39292     	576       	302       	0.52
+poem-social/default/39292     	557       	288       	0.52
+poem-identity/default/39292   	372       	203       	0.55
+poem-adventure/default/39292  	335       	193       	0.58
+poem-memories/default/39292   	393       	233       	0.59
+poem-art/default/39292        	578       	322       	0.56
+poem-freedom/default/39292    	572       	307       	0.54
+poem-technology/default/39292 	591       	327       	0.55
+poem-nature/default/190192    	359       	235       	0.65
+poem-love/default/190192      	493       	258       	0.52
+poem-dreams/default/190192    	407       	223       	0.55
+poem-social/default/190192    	470       	262       	0.56
+poem-identity/default/190192  	347       	218       	0.63
+poem-adventure/default/190192 	292       	181       	0.62
+poem-memories/default/190192  	553       	316       	0.57
+poem-art/default/190192       	443       	249       	0.56
+poem-freedom/default/190192   	335       	207       	0.62
+poem-technology/default/190192	508       	324       	0.64
+poem-nature/default/12912     	432       	271       	0.63
+poem-love/default/12912       	461       	246       	0.53
+poem-dreams/default/12912     	304       	200       	0.66
+poem-social/default/12912     	455       	260       	0.57
+poem-identity/default/12912   	321       	195       	0.61
+poem-adventure/default/12912  	583       	332       	0.57
+poem-memories/default/12912   	344       	207       	0.60
+poem-art/default/12912        	422       	229       	0.54
+poem-freedom/default/12912    	293       	169       	0.58
+poem-technology/default/12912 	511       	285       	0.56
+poem-nature/default/1337      	340       	218       	0.64
+poem-love/default/1337        	420       	226       	0.54
+poem-dreams/default/1337      	428       	225       	0.53
+poem-social/default/1337      	429       	258       	0.60
+poem-identity/default/1337    	454       	251       	0.55
+poem-adventure/default/1337   	505       	285       	0.56
+poem-memories/default/1337    	405       	264       	0.65
+poem-art/default/1337         	303       	163       	0.54
+poem-freedom/default/1337     	374       	217       	0.58
+poem-technology/default/1337  	390       	235       	0.60
+-----------------------------------------------------------
+mean:0.578	range:0.141	sd:0.037
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Toppy-M-7B.q8_0.gguf
+-----------------------------------------------------------
+Reference                     	Total     	Distinct  	Percent
+poem-nature/default/1324932   	264       	168       	0.64
+poem-love/default/1324932     	409       	216       	0.53
+poem-dreams/default/1324932   	291       	165       	0.57
+poem-social/default/1324932   	527       	274       	0.52
+poem-identity/default/1324932 	468       	230       	0.49
+poem-adventure/default/1324932	433       	247       	0.57
+poem-memories/default/1324932 	259       	159       	0.61
+poem-art/default/1324932      	573       	231       	0.40
+poem-freedom/default/1324932  	248       	155       	0.62
+poem-technology/default/1324932	305       	184       	0.60
+poem-nature/default/39292     	434       	234       	0.54
+poem-love/default/39292       	403       	200       	0.50
+poem-dreams/default/39292     	322       	179       	0.56
+poem-social/default/39292     	454       	236       	0.52
+poem-identity/default/39292   	304       	165       	0.54
+poem-adventure/default/39292  	397       	232       	0.58
+poem-memories/default/39292   	283       	175       	0.62
+poem-art/default/39292        	322       	172       	0.53
+poem-freedom/default/39292    	348       	182       	0.52
+poem-technology/default/39292 	383       	202       	0.53
+poem-nature/default/190192    	336       	205       	0.61
+poem-love/default/190192      	278       	172       	0.62
+poem-dreams/default/190192    	306       	179       	0.58
+poem-social/default/190192    	408       	233       	0.57
+poem-identity/default/190192  	415       	197       	0.47
+poem-adventure/default/190192 	399       	214       	0.54
+poem-memories/default/190192  	265       	149       	0.56
+poem-art/default/190192       	266       	161       	0.61
+poem-freedom/default/190192   	311       	162       	0.52
+poem-technology/default/190192	282       	157       	0.56
+poem-nature/default/12912     	310       	183       	0.59
+poem-love/default/12912       	285       	145       	0.51
+poem-dreams/default/12912     	356       	196       	0.55
+poem-social/default/12912     	405       	207       	0.51
+poem-identity/default/12912   	406       	208       	0.51
+poem-adventure/default/12912  	304       	173       	0.57
+poem-memories/default/12912   	298       	177       	0.59
+poem-art/default/12912        	309       	149       	0.48
+poem-freedom/default/12912    	404       	209       	0.52
+poem-technology/default/12912 	490       	276       	0.56
+poem-nature/default/1337      	379       	194       	0.51
+poem-love/default/1337        	190       	122       	0.64
+poem-dreams/default/1337      	278       	148       	0.53
+poem-social/default/1337      	391       	232       	0.59
+poem-identity/default/1337    	232       	143       	0.62
+poem-adventure/default/1337   	367       	213       	0.58
+poem-memories/default/1337    	308       	178       	0.58
+poem-art/default/1337         	237       	135       	0.57
+poem-freedom/default/1337     	333       	177       	0.53
+poem-technology/default/1337  	444       	226       	0.51
+-----------------------------------------------------------
+mean:0.554	range:0.239	sd:0.047
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+u-amethyst-20b.Q4_K_M.gguf
+-----------------------------------------------------------
+Reference                     	Total     	Distinct  	Percent
+poem-nature/default/1324932   	355       	215       	0.61
+poem-love/default/1324932     	272       	160       	0.59
+poem-dreams/default/1324932   	260       	158       	0.61
+poem-social/default/1324932   	324       	201       	0.62
+poem-identity/default/1324932 	341       	189       	0.55
+poem-adventure/default/1324932	313       	207       	0.66
+poem-memories/default/1324932 	295       	183       	0.62
+poem-art/default/1324932      	216       	135       	0.62
+poem-freedom/default/1324932  	307       	181       	0.59
+poem-technology/default/1324932	283       	173       	0.61
+poem-nature/default/39292     	365       	213       	0.58
+poem-love/default/39292       	311       	169       	0.54
+poem-dreams/default/39292     	290       	170       	0.59
+poem-social/default/39292     	367       	228       	0.62
+poem-identity/default/39292   	370       	224       	0.61
+poem-adventure/default/39292  	359       	218       	0.61
+poem-memories/default/39292   	246       	162       	0.66
+poem-art/default/39292        	209       	127       	0.61
+poem-freedom/default/39292    	221       	137       	0.62
+poem-technology/default/39292 	297       	185       	0.62
+poem-nature/default/190192    	248       	158       	0.64
+poem-love/default/190192      	278       	152       	0.55
+poem-dreams/default/190192    	266       	173       	0.65
+poem-social/default/190192    	286       	184       	0.64
+poem-identity/default/190192  	507       	275       	0.54
+poem-adventure/default/190192 	185       	122       	0.66
+poem-memories/default/190192  	272       	181       	0.67
+poem-art/default/190192       	271       	161       	0.59
+poem-freedom/default/190192   	314       	170       	0.54
+poem-technology/default/190192	346       	204       	0.59
+poem-nature/default/12912     	272       	178       	0.65
+poem-love/default/12912       	223       	147       	0.66
+poem-dreams/default/12912     	250       	150       	0.60
+poem-social/default/12912     	243       	150       	0.62
+poem-identity/default/12912   	271       	166       	0.61
+poem-adventure/default/12912  	372       	227       	0.61
+poem-memories/default/12912   	186       	141       	0.76
+poem-art/default/12912        	318       	190       	0.60
+poem-freedom/default/12912    	260       	162       	0.62
+poem-technology/default/12912 	335       	211       	0.63
+poem-nature/default/1337      	337       	209       	0.62
+poem-love/default/1337        	300       	180       	0.60
+poem-dreams/default/1337      	349       	183       	0.52
+poem-social/default/1337      	283       	190       	0.67
+poem-identity/default/1337    	335       	177       	0.53
+poem-adventure/default/1337   	319       	184       	0.58
+poem-memories/default/1337    	256       	159       	0.62
+poem-art/default/1337         	331       	166       	0.50
+poem-freedom/default/1337     	262       	173       	0.66
+poem-technology/default/1337  	391       	241       	0.62
+-----------------------------------------------------------
+mean:0.610	range:0.257	sd:0.045
 -----------------------------------------------------------
 
 -----------------------------------------------------------
